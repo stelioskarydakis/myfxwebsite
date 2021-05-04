@@ -1729,4 +1729,18 @@ h1 {
   margin: 0 auto;
   text-align: center;
 }
+
+.git {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.git a {
+  color: #000;
+}
+
+.git a i {
+  padding-right: 10px;
+  font-size: 20px;
+}
 /*# sourceMappingURL=main.css.map */

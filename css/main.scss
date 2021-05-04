@@ -79,3 +79,15 @@ h1 {
   margin: 0 auto;
   text-align: center;
 }
+
+.git {
+  text-align: center;
+  padding-bottom: 30px;
+  a {
+    color: #000;
+    i {
+      padding-right: 10px;
+      font-size: 20px;
+    }
+  }
+}
