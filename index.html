@@ -1,0 +1,1498 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap-grid.min.css"
+      integrity="sha512-cKoGpmS4czjv58PNt1YTHxg0wUDlctZyp9KUxQpdbAft+XqnyKvDvcGX0QYCgCohQenOuyGSl8l1f7/+axAqyg=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.12/css/intlTelInput.min.css"
+      integrity="sha512-yye/u0ehQsrVrfSd6biT17t39Rg9kNc+vENcCXZuMz2a+LWFGvXUnYuWUW6pbfYj1jcBb/C39UZw2ciQvwDDvg=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>FxPro Playground | By Stylianos</title>
+    <style>
+      .iti__flag {
+        background-image: url(https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.12/img/flags.png);
+      }
+
+      @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+        .iti__flag {
+          background-image: url(https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.12/img/flags@2x.png);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <div class="cfd">
+      <div class="container">
+        <p>
+          <strong>Trade Responsibly.</strong> CFDs are complex instruments and
+          come with a high risk of losing money rapidly due to leverage.
+          <strong>
+            74.02% of retail investor accounts lose money when trading CFDs with
+            this provider.</strong
+          >
+          You should consider whether you understand how CFDs work and whether
+          you can afford to take the high risk of losing your money.
+        </p>
+      </div>
+    </div>
+    <div class="hero">
+      <!-- Slider -->
+      <div class="slider">
+        <!-- NavBar -->
+        <div class="navbar">
+          <div class="container">
+            <div class="inner-container">
+              <div class="left-menu">
+                <div class="logo">
+                  <img src="/images/logo.svg" alt="logo" />
+                </div>
+                <div class="menu">
+                  <ul class="parent-menu">
+                    <!-- Markets -->
+                    <li class="menu-li" data-id="markets">
+                      <div class="menu-item">
+                        <span class="name">Markets</span>
+                        <i class="fas fa-chevron-down"></i>
+                      </div>
+                      <div class="child-menu">
+                        <div class="menu-links">
+                          <a href="">Forex</a>
+                          <a href="">Futures</a>
+                          <a href="">Indices</a>
+                          <a href="">Shares</a>
+                          <a href="">Metals</a>
+                          <a href="">Energies</a>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- Tools -->
+                    <li class="menu-li" data-id="tools">
+                      <div class="menu-item">
+                        <span class="name">Tools</span>
+                        <i class="fas fa-chevron-down"></i>
+                      </div>
+                      <div class="child-menu">
+                        <div class="flexrow">
+                          <div class="flexcol">
+                            <div class="submenu-heading">Platforms</div>
+                            <div class="menu-links">
+                              <a href="">FxPro Trading Platform</a>
+                              <a href="">MetaTrader 4</a>
+                              <a href="">MetaTrader 5</a>
+                              <a href="">cTrader</a>
+                              <a href="">Platform Comparison</a>
+                            </div>
+                          </div>
+                          <div class="flexcol">
+                            <div class="submenu-heading">Trading Tools</div>
+                            <div class="menu-links">
+                              <a href="">Education</a>
+                              <a href="">Economic Calendar</a>
+                              <a href="">Forex News</a>
+                              <a href="">Calculators</a>
+                              <a href="">All Tools</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+
+                    <!-- Pricing -->
+                    <li class="menu-li" data-id="pricing">
+                      <div class="menu-item">
+                        <span class="name">Pricing</span>
+                        <i class="fas fa-chevron-down"></i>
+                      </div>
+                      <div class="child-menu">
+                        <div class="menu-links">
+                          <a href="">Our Pricing Model</a>
+                          <a href="">Funding</a>
+                          <a href=""
+                            ><i class="fab fa-font-awesome-flag"></i>Getting
+                            started with us</a
+                          >
+                        </div>
+                      </div>
+                    </li>
+
+                    <!-- Company -->
+                    <li class="menu-li" data-id="company">
+                      <div class="menu-item">
+                        <span class="name">Company</span>
+                        <i class="fas fa-chevron-down"></i>
+                      </div>
+                      <div class="child-menu">
+                        <div class="menu-links">
+                          <a href="">About FxPro</a>
+                          <a href="">Credit Score</a>
+                          <a href="">Sponsorships <sup>new</sup></a>
+                          <a href="">Partner with us</a>
+                          <a href="">News room</a>
+                          <a href="">Careers</a>
+                          <a href="">Safety</a>
+                          <a href="">Contact us</a>
+                          <a href="">Get Help</a>
+                        </div>
+                      </div>
+                    </li>
+
+                    <li class="search-li">
+                      <i class="fas fa-search"></i>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="right-menu">
+                <div class="langs">
+                  <div class="menu-item">
+                    <div class="globe">
+                      <i class="fas fa-globe"></i>
+                    </div>
+                    EN <i class="fas fa-sort-down"></i>
+                  </div>
+                </div>
+
+                <div class="youraccount-li">
+                  <div class="hellotext">Hello, Sign in</div>
+                  <a href="" class="youraccount-link"
+                    >Your Account <i class="fas fa-sort-down"></i
+                  ></a>
+                  <div class="tooltip">
+                    <button class="btn btn-primary">Log In</button>
+                    <div class="notregister">
+                      <span>Not registered</span>
+                      <a href="">Sign Up</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="register-li">
+                  <div class="btn btn-primary outlined">Register</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Search Pop up -->
+          <div class="search-popup">
+            <div class="pop">
+              <div class="container">
+                <div class="inner-form">
+                  <div class="close-btn"><i class="fas fa-times"></i></div>
+                  <div class="search-head">SEARCH</div>
+                  <form class="search-form">
+                    <input type="text" placeholder="Search" />
+                    <button class="head-btn-search">
+                      <i class="fas fa-search"></i>
+                    </button>
+                  </form>
+                  <div class="sub-lines">
+                    <div class="examples">
+                      For Example
+                      <a href="">EURUSD</a>, <a href="">openAccount</a>,
+                      <a href="">Start Trading</a>
+                    </div>
+                    <div class="search-links">
+                      Didn't find what you were looking for? Visit our
+                      <a href="">Help Centre</a> or contact our
+                      <a href="">Customer Support</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Search Pop up -->
+        </div>
+
+        <!-- End Navbar -->
+        <!-- Swiper -->
+
+        <div class="swiper-container gallery-top">
+          <div class="swiper-wrapper">
+            <!-- First Slide -->
+            <div class="swiper-slide" data-theme="light">
+              <div class="slide-container">
+                <div class="container">
+                  <div class="row">
+                    <div class="cta-section col-12 col-md-6">
+                      <h1 class="gold-title">
+                        Trade on the go,<br />
+                        like a Pro.
+                      </h1>
+                      <a href="" class="btn btn-primary hero-btn"
+                        >Start Trading Now</a
+                      >
+                      <div class="demo-account">
+                        or <a href="">Try Demo Account</a>
+                      </div>
+                    </div>
+                    <div class="img-section col-12 col-md-6">
+                      <video autoplay loop class="vid">
+                        <source
+                          src="./images/FxPro_App_Website_3.mp4"
+                          type="video/mp4"
+                        />
+
+                        <img
+                          src="/images/1.webp"
+                          title="Your browser does not support video"
+                        />
+                      </video>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End First Slide -->
+            <!-- Second Slide -->
+            <div class="swiper-slide" data-theme="light">
+              <div class="slide-container has-img">
+                <div class="container">
+                  <div class="row">
+                    <div class="cta-section col-12 col-md-6">
+                      <h1 class="second-title">
+                        Setting Strong<br />
+                        Foundations.
+                      </h1>
+                      <a href="" class="btn btn-primary hero-btn"
+                        >Start Trading Now</a
+                      >
+                      <div class="demo-account">
+                        or <a href="">Try Demo Account</a>
+                      </div>
+                    </div>
+                    <div class="img-section col-12 col-md-6">
+                      <div class="hero-img">
+                        <img src="./images/2.webp" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Second Slide -->
+            <!-- Third Slide -->
+            <div class="swiper-slide darkcolor" data-theme="dark">
+              <div
+                class="slide-container has-bg"
+                style="background-image: url('./images/3.webp')"
+              >
+                <div class="container">
+                  <div class="row">
+                    <div class="cta-section col-12 col-md-6">
+                      <h1 class="third-title">
+                        More than 15 years of<br />
+                        unbridled success
+                      </h1>
+                      <a href="" class="btn btn-primary hero-btn"
+                        >Start Trading Now</a
+                      >
+                      <div class="demo-account">
+                        or <a href="">Try Demo Account</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Third Slide -->
+            <!-- Forth Slide -->
+            <div class="swiper-slide darkcolor" data-theme="dark">
+              <div class="slide-container has-img fourth-slide">
+                <div class="container">
+                  <div class="row">
+                    <div class="cta-section col-12 col-md-6">
+                      <h1 class="forth-title">
+                        Lighting the path to the world's<br />
+                        financial markets
+                      </h1>
+                      <div class="gold-text">
+                        <img src="./images/15.svg" alt="" />
+                        <div class="icon-text">
+                          years of umbitious presence in the industry
+                        </div>
+                      </div>
+                      <a href="" class="btn btn-primary hero-btn"
+                        >Start Trading Now</a
+                      >
+                      <div class="demo-account">
+                        or <a href="">Try Demo Account</a>
+                      </div>
+                    </div>
+                    <div class="img-section col-12 col-md-6">
+                      <div class="hero-img">
+                        <img src="./images/4.webp" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Forth Slide -->
+          </div>
+        </div>
+        <div class="container">
+          <div class="thumbs-container">
+            <span class="more">More Advantages</span>
+            <div class="thumbs">
+              <div class="swiper-container gallery-thumbs">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <span class="thumb-icon first-slide"></span>
+                  </div>
+                  <div class="swiper-slide">
+                    <span class="thumb-icon second-slide"></span>
+                  </div>
+                  <div class="swiper-slide">
+                    <span class="thumb-icon third-slide"></span>
+                  </div>
+                  <div class="swiper-slide">
+                    <span class="thumb-icon forth-slide"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- End Slider -->
+    </div>
+
+    <!-- Tabs -->
+    <div class="section-tabs">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-6">
+            <div class="experience">
+              <h2 data-aos="fade-up" data-aos-duration="700">
+                Experience superior execution & trading conditions
+              </h2>
+              <p>
+                At FxPro we pride ourselves on offering fully transparent
+                quality execution, alongside some of the best trading conditions
+                in the industry.
+              </p>
+              <ul>
+                <li>
+                  <i class="fas fa-check"></i>
+                  <span>No dealing desk intervention<sup>1</sup></span>
+                </li>
+                <li>
+                  <i class="fas fa-check"></i>
+                  <span
+                    >Сompetitive spreads with no commission<sup>2</sup></span
+                  >
+                </li>
+                <li>
+                  <i class="fas fa-check"></i
+                  ><span
+                    >Ultra-Fast execution with most orders filled
+                    &#60;14ms</span
+                  >
+                </li>
+                <li>
+                  <i class="fas fa-check"></i
+                  ><span>Ultra-low latency Equinix datacentre co-location</span>
+                </li>
+                <li>
+                  <i class="fas fa-check"></i
+                  ><span
+                    >Deep Liquidity providing the best possible Bid and Ask
+                    prices</span
+                  >
+                </li>
+              </ul>
+              <div class="how">
+                View our impressive trading statistics and find out more about
+                <a href="">how we execute orders.</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6">
+            <div class="tabs-container">
+              <div class="market-btn">
+                <button class="btn-tab active" data-id="popular">
+                  Popular
+                </button>
+              </div>
+              <div class="market flex2">
+                <input type="text" placeholder="Search instruments" />
+                <button class="btn-search">
+                  <i class="fas fa-search"></i>
+                </button>
+              </div>
+              <div class="market-btn">
+                <button class="btn-tab" data-id="forex">Forex</button>
+              </div>
+              <div class="market-btn">
+                <button class="btn-tab" data-id="metals">Metals</button>
+              </div>
+              <div class="market-btn">
+                <button class="btn-tab" data-id="indices">Indices</button>
+              </div>
+              <div class="market-btn">
+                <button class="btn-tab" data-id="futures">Futures</button>
+              </div>
+              <div class="market-btn">
+                <button class="btn-tab" data-id="energies">Energies</button>
+              </div>
+              <div class="market-btn">
+                <button class="btn-tab" data-id="shares">Shares</button>
+              </div>
+              <div class="tab-titles">
+                <div class="tab-title">Markets</div>
+                <div class="tab-title">Sell</div>
+                <div class="tab-title">Buy</div>
+                <div class="tab-title">Change</div>
+              </div>
+              <div class="tabs-content">
+                <!-- First tab -->
+                <div class="tab-content active" id="popular">
+                  <div class="table-row">
+                    <div class="tab-td market-td">EURUSD POP</div>
+                    <div class="tab-td">
+                      <a href="">
+                        <span><i class="fas fa-arrow-down"></i> •</span>
+                        1.20193
+                      </a>
+                    </div>
+                    <div class="tab-td">
+                      <a href="">
+                        <span><i class="fas fa-arrow-up"></i> •</span>
+                        1.20206
+                      </a>
+                    </div>
+                    <div class="tab-td">-0.83</div>
+                  </div>
+                  <div class="table-row">
+                    <div class="tab-td market-td">GBPUSD</div>
+                    <div class="tab-td">
+                      <a href="">
+                        <span><i class="fas fa-arrow-down"></i> •</span>
+                        1.20193
+                      </a>
+                    </div>
+                    <div class="tab-td">
+                      <a href="">
+                        <span><i class="fas fa-arrow-up"></i> •</span>
+                        1.20206
+                      </a>
+                    </div>
+                    <div class="tab-td">-0.83</div>
+                  </div>
+                  <div class="table-row">
+                    <div class="tab-td market-td">WTI</div>
+                    <div class="tab-td">
+                      <a href="">
+                        <span><i class="fas fa-arrow-down"></i> •</span>
+                        1.20193
+                      </a>
+                    </div>
+                    <div class="tab-td">
+                      <a href="">
+                        <span><i class="fas fa-arrow-up"></i> •</span>
+                        1.20206
+                      </a>
+                    </div>
+                    <div class="tab-td">-0.83</div>
+                  </div>
+                  <div class="table-row">
+                    <div class="tab-td market-td">BRENT</div>
+                    <div class="tab-td">
+                      <a href="">
+                        <span><i class="fas fa-arrow-down"></i> •</span>
+                        1.20193
+                      </a>
+                    </div>
+                    <div class="tab-td">
+                      <a href="">
+                        <span><i class="fas fa-arrow-up"></i> •</span>
+                        1.20206
+                      </a>
+                    </div>
+                    <div class="tab-td">-0.83</div>
+                  </div>
+                </div>
+                <!-- End First tab -->
+
+                <!-- Second tab -->
+                <div class="tab-content" id="forex">
+                  <div class="table-row">
+                    <div class="tab-td market-td">EURUSD Fore</div>
+                    <div class="tab-td">
+                      <a href="">
+                        <span><i class="fas fa-arrow-down"></i> •</span>
+                        1.20193
+                      </a>
+                    </div>
+                    <div class="tab-td">
+                      <a href="">
+                        <span><i class="fas fa-arrow-up"></i> •</span>
+                        1.20206
+                      </a>
+                    </div>
+                    <div class="tab-td">-0.83</div>
+                  </div>
+                  <div class="table-row">
+                    <div class="tab-td market-td">GBPUSD</div>
+                    <div class="tab-td">
+                      <a href="">
+                        <span><i class="fas fa-arrow-down"></i> •</span>
+                        1.20193
+                      </a>
+                    </div>
+                    <div class="tab-td">
+                      <a href="">
+                        <span><i class="fas fa-arrow-up"></i> •</span>
+                        1.20206
+                      </a>
+                    </div>
+                    <div class="tab-td">-0.83</div>
+                  </div>
+                  <div class="table-row">
+                    <div class="tab-td market-td">WTI</div>
+                    <div class="tab-td">
+                      <a href="">
+                        <span><i class="fas fa-arrow-down"></i> •</span>
+                        1.20193
+                      </a>
+                    </div>
+                    <div class="tab-td">
+                      <a href="">
+                        <span><i class="fas fa-arrow-up"></i> •</span>
+                        1.20206
+                      </a>
+                    </div>
+                    <div class="tab-td">-0.83</div>
+                  </div>
+                  <div class="table-row">
+                    <div class="tab-td market-td">BRENT</div>
+                    <div class="tab-td">
+                      <a href="">
+                        <span><i class="fas fa-arrow-down"></i> •</span>
+                        1.20193
+                      </a>
+                    </div>
+                    <div class="tab-td">
+                      <a href="">
+                        <span><i class="fas fa-arrow-up"></i> •</span>
+                        1.20206
+                      </a>
+                    </div>
+                    <div class="tab-td">-0.83</div>
+                  </div>
+                  <div class="showmore">
+                    <a href="">
+                      See the full list of Forex
+                      <span><i class="fas fa-long-arrow-alt-right"></i></span>
+                    </a>
+                  </div>
+                </div>
+                <!-- End Second tab -->
+                <!-- Third tab -->
+                <div class="tab-content" id="metals">
+                  <div class="table-row">
+                    <div class="tab-td market-td">EURUSD Met</div>
+                    <div class="tab-td">
+                      <a href="">
+                        <span><i class="fas fa-arrow-down"></i> •</span>
+                        1.20193
+                      </a>
+                    </div>
+                    <div class="tab-td">
+                      <a href="">
+                        <span><i class="fas fa-arrow-up"></i> •</span>
+                        1.20206
+                      </a>
+                    </div>
+                    <div class="tab-td">-0.83</div>
+                  </div>
+                  <div class="table-row">
+                    <div class="tab-td market-td">GBPUSD</div>
+                    <div class="tab-td">
+                      <a href="">
+                        <span><i class="fas fa-arrow-down"></i> •</span>
+                        1.20193
+                      </a>
+                    </div>
+                    <div class="tab-td">
+                      <a href="">
+                        <span><i class="fas fa-arrow-up"></i> •</span>
+                        1.20206
+                      </a>
+                    </div>
+                    <div class="tab-td">-0.83</div>
+                  </div>
+                  <div class="table-row">
+                    <div class="tab-td market-td">WTI</div>
+                    <div class="tab-td">
+                      <a href="">
+                        <span><i class="fas fa-arrow-down"></i> •</span>
+                        1.20193
+                      </a>
+                    </div>
+                    <div class="tab-td">
+                      <a href="">
+                        <span><i class="fas fa-arrow-up"></i> •</span>
+                        1.20206
+                      </a>
+                    </div>
+                    <div class="tab-td">-0.83</div>
+                  </div>
+                  <div class="table-row">
+                    <div class="tab-td market-td">BRENT</div>
+                    <div class="tab-td">
+                      <a href="">
+                        <span><i class="fas fa-arrow-down"></i> •</span>
+                        1.20193
+                      </a>
+                    </div>
+                    <div class="tab-td">
+                      <a href="">
+                        <span><i class="fas fa-arrow-up"></i> •</span>
+                        1.20206
+                      </a>
+                    </div>
+                    <div class="tab-td">-0.83</div>
+                  </div>
+                  <div class="showmore">
+                    <a href="">
+                      See the full list of Metals
+                      <span><i class="fas fa-long-arrow-alt-right"></i></span>
+                    </a>
+                  </div>
+                </div>
+                <!-- End Third tab -->
+                <!-- Forth tab -->
+                <div class="tab-content" id="indices">
+                  <div class="table-row">
+                    <div class="tab-td market-td">EURUSD ind</div>
+                    <div class="tab-td">
+                      <a href="">
+                        <span><i class="fas fa-arrow-down"></i> •</span>
+                        1.20193
+                      </a>
+                    </div>
+                    <div class="tab-td">
+                      <a href="">
+                        <span><i class="fas fa-arrow-up"></i> •</span>
+                        1.20206
+                      </a>
+                    </div>
+                    <div class="tab-td">-0.83</div>
+                  </div>
+                  <div class="table-row">
+                    <div class="tab-td market-td">GBPUSD</div>
+                    <div class="tab-td">
+                      <a href="">
+                        <span><i class="fas fa-arrow-down"></i> •</span>
+                        1.20193
+                      </a>
+                    </div>
+                    <div class="tab-td">
+                      <a href="">
+                        <span><i class="fas fa-arrow-up"></i> •</span>
+                        1.20206
+                      </a>
+                    </div>
+                    <div class="tab-td">-0.83</div>
+                  </div>
+                  <div class="table-row">
+                    <div class="tab-td market-td">WTI</div>
+                    <div class="tab-td">
+                      <a href="">
+                        <span><i class="fas fa-arrow-down"></i> •</span>
+                        1.20193
+                      </a>
+                    </div>
+                    <div class="tab-td">
+                      <a href="">
+                        <span><i class="fas fa-arrow-up"></i> •</span>
+                        1.20206
+                      </a>
+                    </div>
+                    <div class="tab-td">-0.83</div>
+                  </div>
+                  <div class="table-row">
+                    <div class="tab-td market-td">BRENT</div>
+                    <div class="tab-td">
+                      <a href="">
+                        <span><i class="fas fa-arrow-down"></i> •</span>
+                        1.20193
+                      </a>
+                    </div>
+                    <div class="tab-td">
+                      <a href="">
+                        <span><i class="fas fa-arrow-up"></i> •</span>
+                        1.20206
+                      </a>
+                    </div>
+                    <div class="tab-td">-0.83</div>
+                  </div>
+                  <div class="showmore">
+                    <a href="">
+                      See the full list of Indices
+                      <span><i class="fas fa-long-arrow-alt-right"></i></span>
+                    </a>
+                  </div>
+                </div>
+                <!-- End Forth tab -->
+                <!-- Fifth tab -->
+                <div class="tab-content" id="futures">
+                  <div class="table-row">
+                    <div class="tab-td market-td">EURUSD fut</div>
+                    <div class="tab-td">
+                      <a href="">
+                        <span><i class="fas fa-arrow-down"></i> •</span>
+                        1.20193
+                      </a>
+                    </div>
+                    <div class="tab-td">
+                      <a href="">
+                        <span><i class="fas fa-arrow-up"></i> •</span>
+                        1.20206
+                      </a>
+                    </div>
+                    <div class="tab-td">-0.83</div>
+                  </div>
+                  <div class="table-row">
+                    <div class="tab-td market-td">GBPUSD</div>
+                    <div class="tab-td">
+                      <a href="">
+                        <span><i class="fas fa-arrow-down"></i> •</span>
+                        1.20193
+                      </a>
+                    </div>
+                    <div class="tab-td">
+                      <a href="">
+                        <span><i class="fas fa-arrow-up"></i> •</span>
+                        1.20206
+                      </a>
+                    </div>
+                    <div class="tab-td">-0.83</div>
+                  </div>
+                  <div class="table-row">
+                    <div class="tab-td market-td">WTI</div>
+                    <div class="tab-td">
+                      <a href="">
+                        <span><i class="fas fa-arrow-down"></i> •</span>
+                        1.20193
+                      </a>
+                    </div>
+                    <div class="tab-td">
+                      <a href="">
+                        <span><i class="fas fa-arrow-up"></i> •</span>
+                        1.20206
+                      </a>
+                    </div>
+                    <div class="tab-td">-0.83</div>
+                  </div>
+                  <div class="table-row">
+                    <div class="tab-td market-td">BRENT</div>
+                    <div class="tab-td">
+                      <a href="">
+                        <span><i class="fas fa-arrow-down"></i> •</span>
+                        1.20193
+                      </a>
+                    </div>
+                    <div class="tab-td">
+                      <a href="">
+                        <span><i class="fas fa-arrow-up"></i> •</span>
+                        1.20206
+                      </a>
+                    </div>
+                    <div class="tab-td">-0.83</div>
+                  </div>
+                  <div class="showmore">
+                    <a href="">
+                      See the full list of Futures
+                      <span><i class="fas fa-long-arrow-alt-right"></i></span>
+                    </a>
+                  </div>
+                </div>
+                <!-- End Fifth tab -->
+                <!-- Six tab -->
+                <div class="tab-content" id="energies">
+                  <div class="table-row">
+                    <div class="tab-td market-td">EURUSD ene</div>
+                    <div class="tab-td">
+                      <a href="">
+                        <span><i class="fas fa-arrow-down"></i> •</span>
+                        1.20193
+                      </a>
+                    </div>
+                    <div class="tab-td">
+                      <a href="">
+                        <span><i class="fas fa-arrow-up"></i> •</span>
+                        1.20206
+                      </a>
+                    </div>
+                    <div class="tab-td">-0.83</div>
+                  </div>
+                  <div class="table-row">
+                    <div class="tab-td market-td">GBPUSD</div>
+                    <div class="tab-td">
+                      <a href="">
+                        <span><i class="fas fa-arrow-down"></i> •</span>
+                        1.20193
+                      </a>
+                    </div>
+                    <div class="tab-td">
+                      <a href="">
+                        <span><i class="fas fa-arrow-up"></i> •</span>
+                        1.20206
+                      </a>
+                    </div>
+                    <div class="tab-td">-0.83</div>
+                  </div>
+                  <div class="table-row">
+                    <div class="tab-td market-td">WTI</div>
+                    <div class="tab-td">
+                      <a href="">
+                        <span><i class="fas fa-arrow-down"></i> •</span>
+                        1.20193
+                      </a>
+                    </div>
+                    <div class="tab-td">
+                      <a href="">
+                        <span><i class="fas fa-arrow-up"></i> •</span>
+                        1.20206
+                      </a>
+                    </div>
+                    <div class="tab-td">-0.83</div>
+                  </div>
+                  <div class="table-row">
+                    <div class="tab-td market-td">BRENT</div>
+                    <div class="tab-td">
+                      <a href="">
+                        <span><i class="fas fa-arrow-down"></i> •</span>
+                        1.20193
+                      </a>
+                    </div>
+                    <div class="tab-td">
+                      <a href="">
+                        <span><i class="fas fa-arrow-up"></i> •</span>
+                        1.20206
+                      </a>
+                    </div>
+                    <div class="tab-td">-0.83</div>
+                  </div>
+                  <div class="showmore">
+                    <a href="">
+                      See the full list of Energies
+                      <span><i class="fas fa-long-arrow-alt-right"></i></span>
+                    </a>
+                  </div>
+                </div>
+                <!-- End Six tab -->
+                <!-- Seventh tab -->
+                <div class="tab-content" id="shares">
+                  <div class="table-row">
+                    <div class="tab-td market-td">EURUSD shar</div>
+                    <div class="tab-td">
+                      <a href="">
+                        <span><i class="fas fa-arrow-down"></i> •</span>
+                        1.20193
+                      </a>
+                    </div>
+                    <div class="tab-td">
+                      <a href="">
+                        <span><i class="fas fa-arrow-up"></i> •</span>
+                        1.20206
+                      </a>
+                    </div>
+                    <div class="tab-td">-0.83</div>
+                  </div>
+                  <div class="table-row">
+                    <div class="tab-td market-td">GBPUSD</div>
+                    <div class="tab-td">
+                      <a href="">
+                        <span><i class="fas fa-arrow-down"></i> •</span>
+                        1.20193
+                      </a>
+                    </div>
+                    <div class="tab-td">
+                      <a href="">
+                        <span><i class="fas fa-arrow-up"></i> •</span>
+                        1.20206
+                      </a>
+                    </div>
+                    <div class="tab-td">-0.83</div>
+                  </div>
+                  <div class="table-row">
+                    <div class="tab-td market-td">WTI</div>
+                    <div class="tab-td">
+                      <a href="">
+                        <span><i class="fas fa-arrow-down"></i> •</span>
+                        1.20193
+                      </a>
+                    </div>
+                    <div class="tab-td">
+                      <a href="">
+                        <span><i class="fas fa-arrow-up"></i> •</span>
+                        1.20206
+                      </a>
+                    </div>
+                    <div class="tab-td">-0.83</div>
+                  </div>
+                  <div class="table-row">
+                    <div class="tab-td market-td">BRENT</div>
+                    <div class="tab-td">
+                      <a href="">
+                        <span><i class="fas fa-arrow-down"></i> •</span>
+                        1.20193
+                      </a>
+                    </div>
+                    <div class="tab-td">
+                      <a href="">
+                        <span><i class="fas fa-arrow-up"></i> •</span>
+                        1.20206
+                      </a>
+                    </div>
+                    <div class="tab-td">-0.83</div>
+                  </div>
+                  <div class="showmore">
+                    <a href="">
+                      See the full list of Shares
+                      <span><i class="fas fa-long-arrow-alt-right"></i></span>
+                    </a>
+                  </div>
+                </div>
+                <!-- End Seventh tab -->
+                <div class="asterisk">
+                  *Based on MT4 account spreads. The pricing is for indicative
+                  purposes only. Please go to individual instrument
+                  specifications to see the trading conditions
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- End Tabs -->
+
+    <!-- Account -->
+    <div class="section-account">
+      <div class="btn-row">
+        <button class="btn btn-primary">Open Account</button>
+      </div>
+      <div class="container">
+        <h2 data-aos="fade-up" data-aos-duration="700">
+          Trade with the world’s #1 broker! <sup>3</sup>
+        </h2>
+        <p
+          class="description"
+          data-aos="fade-up"
+          data-aos-duration="700"
+          data-aos-delay="50"
+        >
+          With 15+ years of excellence and innovation, we provide high-quality
+          access to financial markets, through our advanced execution model.
+          Discover the world of online trading with CFDs on 260+ instruments in
+          6 asset classes.
+        </p>
+        <div class="row">
+          <div class="col-12 col-sm-4">
+            <div class="market-card">
+              <div class="icon">
+                <i class="fas fa-chart-line"></i>
+              </div>
+              <div class="card-title">Forex</div>
+              <p>
+                Trade 70 major, minor & exotic currency pairs with competitive
+                trading conditions.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-4">
+            <div class="market-card">
+              <div class="icon">
+                <i class="fas fa-chart-line"></i>
+              </div>
+              <div class="card-title">Metals</div>
+              <p>Trade metal commodities such as Gold, Silver & Platinum.</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-4">
+            <div class="market-card">
+              <div class="icon">
+                <i class="fas fa-chart-line"></i>
+              </div>
+              <div class="card-title">Indices</div>
+              <p>Trade major and minor Index CFDs from around the globe.</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-4">
+            <div class="market-card">
+              <div class="icon">
+                <i class="fas fa-chart-line"></i>
+              </div>
+              <div class="card-title">Futures</div>
+              <p>
+                Trade CFD futures on a range of global indices, agricultural
+                commodities, and Energies.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-4">
+            <div class="market-card">
+              <div class="icon">
+                <i class="fas fa-chart-line"></i>
+              </div>
+              <div class="card-title">Shares</div>
+              <p>
+                Hundreds of public companies from the US, UK, France & Germany
+                available to trade.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-4">
+            <div class="market-card">
+              <div class="icon">
+                <i class="fas fa-chart-line"></i>
+              </div>
+              <div class="card-title">Energies</div>
+              <p>
+                Discover opportunities on UK & US Crude Oil as well as Natural
+                Gas.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- platforms -->
+
+    <div class="section-platforms">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-4">
+            <h2 data-aos="fade-up" data-aos-duration="700">
+              Browse the
+              <span class="bold">full range</span>
+              <span class="right">of platforms </span>
+            </h2>
+            <p>
+              At FxPro we understand that different clients have different
+              needs. Therefore, we offer a wide selection of trusted,
+              award-winning platforms and account types to choose from.
+            </p>
+          </div>
+          <div class="col-12 col-sm-8">
+            <img src="./images/plat.webp" alt="" />
+          </div>
+        </div>
+        <div class="flexrow">
+          <div class="flexcol">
+            <div
+              class="platform-card"
+              data-aos="fade-up"
+              data-aos-duration="700"
+              data-aos-offset="200"
+            >
+              <a href="">
+                <div class="inner">
+                  <div class="icon">
+                    <i class="fas fa-chart-line"></i>
+                  </div>
+                  <div class="card-title">FxPro Platform</div>
+                  <p>Level up with our proprietary products.</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="flexcol">
+            <div
+              class="platform-card"
+              data-aos="fade-up"
+              data-aos-duration="700"
+              data-aos-offset="200"
+              data-aos-delay="150"
+            >
+              <a href="">
+                <div class="inner">
+                  <div class="icon">
+                    <i class="fas fa-chart-line"></i>
+                  </div>
+                  <div class="card-title">FxPro MetaTrader 4</div>
+                  <p>A popular, classic solution.</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="flexcol">
+            <div
+              class="platform-card"
+              data-aos="fade-up"
+              data-aos-duration="700"
+              data-aos-offset="200"
+              data-aos-delay="300"
+            >
+              <a href="">
+                <div class="inner">
+                  <div class="icon">
+                    <i class="fas fa-chart-line"></i>
+                  </div>
+                  <div class="card-title">FxPro MetaTrader 5</div>
+                  <p>A step-up in trading functions</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="flexcol">
+            <div
+              class="platform-card"
+              data-aos="fade-up"
+              data-aos-duration="700"
+              data-aos-offset="200"
+              data-aos-delay="450"
+            >
+              <a href="#">
+                <div class="inner">
+                  <div class="icon">
+                    <i class="fas fa-chart-line"></i>
+                  </div>
+                  <div class="card-title">FxPro cTrader</div>
+                  <p>A seamless, feature-rich experience</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- end platforms -->
+
+    <!-- tools -->
+    <div class="section-tools">
+      <div class="container">
+        <h2 class="heading" data-aos="fade-up" data-aos-duration="700">
+          Compliment your trading with our exclusive tools
+        </h2>
+        <p
+          class="description-part"
+          data-aos="fade-up"
+          data-aos-duration="700"
+          data-aos-delay="50"
+        >
+          FxPro clients are provided with exclusive access to trading tools,
+          news and analysis.
+        </p>
+        <div class="tool-cards">
+          <div class="tool-card">
+            <a href="">
+              <div class="inner">
+                <div class="icon">
+                  <i class="fas fa-chart-line"></i>
+                </div>
+                <div class="card-title">Economic & Earnings Calendars</div>
+              </div>
+            </a>
+          </div>
+          <div class="tool-card">
+            <a href="">
+              <div class="inner">
+                <div class="icon">
+                  <i class="fas fa-chart-line"></i>
+                </div>
+                <div class="card-title">Trading Central Technical Analysis</div>
+              </div>
+            </a>
+          </div>
+          <div class="tool-card">
+            <a href="">
+              <div class="inner">
+                <div class="icon">
+                  <i class="fas fa-chart-line"></i>
+                </div>
+                <div class="card-title">Trading Calulators</div>
+              </div>
+            </a>
+          </div>
+          <div class="tool-card">
+            <a href="">
+              <div class="inner">
+                <div class="icon">
+                  <i class="fas fa-chart-line"></i>
+                </div>
+                <div class="card-title">Daily market reviews</div>
+                <span>from FxPro Analyst Team</span>
+              </div>
+            </a>
+          </div>
+          <div class="tool-card">
+            <a href="">
+              <div class="inner">
+                <div class="icon">
+                  <i class="fas fa-chart-line"></i>
+                </div>
+                <div class="card-title">Educational Resources</div>
+              </div>
+            </a>
+          </div>
+          <div class="tool-card">
+            <a href="">
+              <div class="inner">
+                <div class="icon">
+                  <i class="fas fa-chart-line"></i>
+                </div>
+                <div class="card-title">FxPro VPS and more!</div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="viewmore">
+        <a href="">
+          View Trading Tools
+          <span><i class="fas fa-long-arrow-alt-right"></i></span>
+        </a>
+      </div>
+    </div>
+    <!-- end tools -->
+
+    <!-- Mobile Apps trading -->
+    <div class="section-apps">
+      <h2 class="heading" data-aos="fade-up" data-aos-duration="700">
+        Trade on Mobile
+      </h2>
+      <p
+        class="description-part"
+        data-aos="fade-up"
+        data-aos-duration="700"
+        data-aos-delay="50"
+      >
+        Trade the CFD market on the go with our mobile application and benefit
+        from ultra-low latency trading infrastructure, award-winning order
+        execution and deep liquidity.
+      </p>
+      <div
+        class="links-apps"
+        data-aos="fade-up"
+        data-aos-duration="700"
+        data-aos-delay="50"
+      >
+        Available for <a href="">iOS</a> and <a href="">Android</a> devices.
+      </div>
+      <div class="mob-app">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-sm-6">
+              <div class="gif-img">
+                <img src="./images//app.gif" alt="" />
+              </div>
+            </div>
+            <div class="col-12 col-sm-6">
+              <div class="right-part">
+                <div class="logo-img">
+                  <img src="./images/logo.svg" alt="" />
+                </div>
+                <div class="list-icon">
+                  <div class="icon-line">
+                    <i class="fas fa-chart-line"></i>
+                    <span>Trade world markets </span>
+                  </div>
+                  <div class="icon-line">
+                    <i class="fas fa-chart-line"></i>
+                    <span>Manage trading accounts </span>
+                  </div>
+                  <div class="icon-line">
+                    <i class="fas fa-chart-line"></i>
+                    <span>Variety of payment methods</span>
+                  </div>
+                  <div class="icon-line">
+                    <i class="fas fa-chart-line"></i>
+                    <span>Latest economic events </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sms-form">
+        <div class="container">
+          <form>
+            <div class="form-input">
+              <button id="tel"></button>
+              <span class="country-span">Country phone code</span>
+            </div>
+            <div class="form-input">
+              <input type="text" placeholder="Your mobile" />
+              <span>This will not be shared with others</span>
+            </div>
+            <button class="btn btn-primary">
+              Get FxPro Direct <span>by SMS</span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- End Mobile Apps trading -->
+
+    <!-- Services -->
+    <div class="section-service">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-3">
+            <div class="card-icon">
+              <div class="icon">
+                <i class="fas fa-chart-line"></i>
+              </div>
+              <div class="card-header">1,866,000+ client accounts</div>
+              <div class="card-text">
+                FxPro has been providing online trading services to clients
+                <a href="">since 2006</a> and it currently serves 173 countries
+                worldwide.
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-3">
+            <div class="card-icon">
+              <div class="icon">
+                <i class="fas fa-chart-line"></i>
+              </div>
+              <div class="card-header">80+ awards</div>
+              <div class="card-text">
+                FxPro has received constant recognition in the industry, winning
+                <a href="">over 80 international awards</a> to date for the
+                quality of its services.
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-3">
+            <div class="card-icon">
+              <div class="icon">
+                <i class="fas fa-chart-line"></i>
+              </div>
+              <div class="card-header">5 star customer service</div>
+              <div class="card-text">
+                Our dedicated, <a href="">multilingual customer service</a> team
+                works 24/5 to provide you with an exceptional level of support.
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-3">
+            <div class="card-icon">
+              <div class="icon">
+                <i class="fas fa-chart-line"></i>
+              </div>
+              <div class="card-header">4 industry regulations</div>
+              <div class="card-text">
+                FxPro is well-known throughout the industry as a trustworthy and
+                reliable broker. We are regulated by the <strong>FCA</strong>,
+                <strong>CySEC</strong>, <strong>FSCA</strong> and
+                <strong>SCB</strong>.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Services -->
+
+    <!-- Scroll To Top and Support -->
+    <div class="support-btn">
+      <a href="" class="btn btn-primary">
+        <i class="fas fa-headset"></i>
+        <span>Support</span>
+      </a>
+    </div>
+    <a class="scrolltotop" onclick="topFunction()">
+      <div class="light-btn">
+        <i class="fas fa-arrow-up"></i>
+      </div>
+    </a>
+    <!-- End Scroll To Top and Support -->
+
+    <!-- Ctas and Footer  -->
+    <div class="section-footer-ctas">
+      <div class="container">
+        <div class="footer-cta">
+          <h2 class="heading" data-aos="fade-up" data-aos-duration="700">
+            Trade Like A Pro!
+          </h2>
+          <p
+            class="description-part"
+            data-aos="fade-up"
+            data-aos-duration="700"
+            data-aos-delay="50"
+          >
+            Trade CFDs on a wide range of instruments, including popular FX
+            pairs, Futures, Indices, Metals, Energies and Shares and experience
+            the global markets at your fingertips.
+          </p>
+          <div class="ctas">
+            <button class="btn btn-primary">Live Account</button>
+            <button class="btn btn-primary outlined">Demo Account</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="sups-section">
+          <div class="sups-item">
+            <sup>1</sup> Subject to the order execution policy
+          </div>
+          <div class="sups-item">
+            <sup>2</sup> FxPro clients on the cTrader platform are charged a
+            commission fee. View '<a href="">cTrader Commission Calculator</a> '
+          </div>
+          <div class="sups-item">
+            <sup>3</sup> Based on 80+ UK and international awards.
+          </div>
+        </div>
+
+        <div class="btn-block">
+          <div class="btn btn-primary footer-btn">
+            <span class="headset">
+              <i class="fas fa-headset"></i>
+            </span>
+            Need Help? Visit Our <strong>&nbsp;Help Section.</strong>
+            <span class="arrowhelp">
+              <i class="fas fa-chevron-right"></i>
+            </span>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.12/js/intlTelInput.min.js"
+      integrity="sha512-OnkjbJ4TwPpgSmjXACCb5J4cJwi880VRe+vWpPDlr8M38/L3slN5uUAeOeWU2jN+4vN0gImCXFGdJmc0wO4Mig=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
