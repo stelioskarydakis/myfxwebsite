@@ -35,14 +35,14 @@ menuItems.forEach(function (menuItems_item) {
     })
   })
 })
-menuItems.forEach(function (menuItems_item) {
-  menuItems_item.addEventListener('mouseenter', function () {
-    menuItems.forEach(function (menuItems_item) {
-      menuItems_item.parentElement.classList.remove('active')
-    })
-    menuItems_item.parentElement.classList.toggle('active')
-  })
-})
+// menuItems.forEach(function (menuItems_item) {
+//   menuItems_item.addEventListener('mouseenter', function () {
+//     menuItems.forEach(function (menuItems_item) {
+//       menuItems_item.parentElement.classList.remove('active')
+//     })
+//     menuItems_item.parentElement.classList.toggle('active')
+//   })
+// })
 
 // ******* Search Start
 const searchBtn = document.querySelector('.search-li')
